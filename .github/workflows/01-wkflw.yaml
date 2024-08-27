@@ -1,5 +1,5 @@
 
--name: 01-wkflw
+name: 01-wkflw
 
 on: push
 
