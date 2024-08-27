@@ -1,0 +1,19 @@
+
+-name: 01-wkflw
+
+on: push
+
+jobs:
+  echo-hello:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hello World
+      run: echo "Hello World"
+
+  echo-goodbye:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Goodbye World
+      run: |
+        echo "I will fail"
+        exit 1
