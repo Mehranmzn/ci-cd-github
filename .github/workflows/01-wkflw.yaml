@@ -15,5 +15,5 @@ jobs:
     steps:
     - name: Goodbye World
       run: |
-        echo "I will fail"
-        exit 1
+        echo "I will not fail"
+        exit 0
